@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FrotadeVeículoModelStoreContainer" CdmEntityContainer="FrotadeVeículoEntities1">
+    <EntitySetMapping Name="Motoristas">
+      <EntityTypeMapping TypeName="FrotadeVeículoModel.Motorista">
+        <MappingFragment StoreEntitySet="Motorista">
+          <ScalarProperty Name="MotId" ColumnName="MotId" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Idade" ColumnName="Idade" />
+          <ScalarProperty Name="VeId" ColumnName="VeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdemServicoes">
+      <EntityTypeMapping TypeName="FrotadeVeículoModel.OrdemServico">
+        <MappingFragment StoreEntitySet="OrdemServico">
+          <ScalarProperty Name="OrdSerId" ColumnName="OrdSerId" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="QuantidadeCombustivel" ColumnName="QuantidadeCombustivel" />
+          <ScalarProperty Name="MotId" ColumnName="MotId" />
+          <ScalarProperty Name="CombId" ColumnName="CombId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Postoes">
+      <EntityTypeMapping TypeName="FrotadeVeículoModel.Posto">
+        <MappingFragment StoreEntitySet="Posto">
+          <ScalarProperty Name="PoId" ColumnName="PoId" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Localizacao" ColumnName="Localizacao" />
+          <ScalarProperty Name="OrdSerId" ColumnName="OrdSerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoCombustivels">
+      <EntityTypeMapping TypeName="FrotadeVeículoModel.TipoCombustivel">
+        <MappingFragment StoreEntitySet="TipoCombustivel">
+          <ScalarProperty Name="CombId" ColumnName="CombId" />
+          <ScalarProperty Name="ValorLitro" ColumnName="ValorLitro" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoCombustível">
+      <EntityTypeMapping TypeName="FrotadeVeículoModel.TipoCombustível">
+        <MappingFragment StoreEntitySet="TipoCombustível">
+          <ScalarProperty Name="CombId" ColumnName="CombId" />
+          <ScalarProperty Name="ValorLitro" ColumnName="ValorLitro" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Veiculoes">
+      <EntityTypeMapping TypeName="FrotadeVeículoModel.Veiculo">
+        <MappingFragment StoreEntitySet="Veiculo">
+          <ScalarProperty Name="VeId" ColumnName="VeId" />
+          <ScalarProperty Name="VeiPlaca" ColumnName="VeiPlaca" />
+          <ScalarProperty Name="VeiCor" ColumnName="VeiCor" />
+          <ScalarProperty Name="VeiMarca" ColumnName="VeiMarca" />
+          <ScalarProperty Name="CombId" ColumnName="CombId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,56 @@
+﻿@model Frota_de_Veículos.Models.OrdemServico
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>OrdemServico</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuantidadeCombustivel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuantidadeCombustivel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Motorista.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Motorista.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoCombustivel.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoCombustivel.Nome)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

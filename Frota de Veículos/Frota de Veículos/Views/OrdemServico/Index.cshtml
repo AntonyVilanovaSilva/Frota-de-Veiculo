@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Frota_de_Veículos.Models.OrdemServico>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Data)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuantidadeCombustivel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Motorista.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoCombustivel.Nome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Data)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuantidadeCombustivel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Motorista.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoCombustivel.Nome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.OrdSerId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.OrdSerId }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.OrdSerId })
+        </td>
+    </tr>
+}
+
+</table>

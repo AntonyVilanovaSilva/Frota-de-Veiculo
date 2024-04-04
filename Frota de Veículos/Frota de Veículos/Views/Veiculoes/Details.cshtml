@@ -1,0 +1,50 @@
+﻿@model Frota_de_Veículos.Models.Veiculo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Veiculo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.VeiPlaca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VeiPlaca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VeiCor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VeiCor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VeiMarca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VeiMarca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoCombustivel.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoCombustivel.Nome)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.VeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FrotadeVeículoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Motorista">
+          <Key>
+            <PropertyRef Name="MotId" />
+          </Key>
+          <Property Name="MotId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Idade" Type="varchar" MaxLength="100" />
+          <Property Name="VeId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrdemServico">
+          <Key>
+            <PropertyRef Name="OrdSerId" />
+          </Key>
+          <Property Name="OrdSerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Data" Type="date" />
+          <Property Name="QuantidadeCombustivel" Type="float" />
+          <Property Name="MotId" Type="int" Nullable="false" />
+          <Property Name="CombId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Posto">
+          <Key>
+            <PropertyRef Name="PoId" />
+          </Key>
+          <Property Name="PoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Localizacao" Type="varchar" MaxLength="100" />
+          <Property Name="OrdSerId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TipoCombustivel">
+          <Key>
+            <PropertyRef Name="CombId" />
+          </Key>
+          <Property Name="CombId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ValorLitro" Type="float" />
+          <Property Name="Nome" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TipoCombustível">
+          <Key>
+            <PropertyRef Name="CombId" />
+          </Key>
+          <Property Name="CombId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ValorLitro" Type="float" />
+          <Property Name="Nome" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Veiculo">
+          <Key>
+            <PropertyRef Name="VeId" />
+          </Key>
+          <Property Name="VeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="VeiPlaca" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="VeiCor" Type="varchar" MaxLength="100" />
+          <Property Name="VeiMarca" Type="varchar" MaxLength="100" />
+          <Property Name="CombId" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Motorista__VeId__403A8C7D">
+          <End Role="Veiculo" Type="Self.Veiculo" Multiplicity="1" />
+          <End Role="Motorista" Type="Self.Motorista" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Veiculo">
+              <PropertyRef Name="VeId" />
+            </Principal>
+            <Dependent Role="Motorista">
+              <PropertyRef Name="VeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrdemServ__CombI__52593CB8">
+          <End Role="TipoCombustivel" Type="Self.TipoCombustivel" Multiplicity="1" />
+          <End Role="OrdemServico" Type="Self.OrdemServico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoCombustivel">
+              <PropertyRef Name="CombId" />
+            </Principal>
+            <Dependent Role="OrdemServico">
+              <PropertyRef Name="CombId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrdemServ__MotId__5165187F">
+          <End Role="Motorista" Type="Self.Motorista" Multiplicity="1" />
+          <End Role="OrdemServico" Type="Self.OrdemServico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Motorista">
+              <PropertyRef Name="MotId" />
+            </Principal>
+            <Dependent Role="OrdemServico">
+              <PropertyRef Name="MotId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Posto__OrdSerId__5535A963">
+          <End Role="OrdemServico" Type="Self.OrdemServico" Multiplicity="1" />
+          <End Role="Posto" Type="Self.Posto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrdemServico">
+              <PropertyRef Name="OrdSerId" />
+            </Principal>
+            <Dependent Role="Posto">
+              <PropertyRef Name="OrdSerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Veiculo__CombId__3D5E1FD2">
+          <End Role="TipoCombustivel" Type="Self.TipoCombustivel" Multiplicity="1" />
+          <End Role="Veiculo" Type="Self.Veiculo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoCombustivel">
+              <PropertyRef Name="CombId" />
+            </Principal>
+            <Dependent Role="Veiculo">
+              <PropertyRef Name="CombId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FrotadeVeículoModelStoreContainer">
+          <EntitySet Name="Motorista" EntityType="Self.Motorista" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrdemServico" EntityType="Self.OrdemServico" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Posto" EntityType="Self.Posto" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TipoCombustivel" EntityType="Self.TipoCombustivel" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TipoCombustível" EntityType="Self.TipoCombustível" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Veiculo" EntityType="Self.Veiculo" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Motorista__VeId__403A8C7D" Association="Self.FK__Motorista__VeId__403A8C7D">
+            <End Role="Veiculo" EntitySet="Veiculo" />
+            <End Role="Motorista" EntitySet="Motorista" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrdemServ__CombI__52593CB8" Association="Self.FK__OrdemServ__CombI__52593CB8">
+            <End Role="TipoCombustivel" EntitySet="TipoCombustivel" />
+            <End Role="OrdemServico" EntitySet="OrdemServico" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrdemServ__MotId__5165187F" Association="Self.FK__OrdemServ__MotId__5165187F">
+            <End Role="Motorista" EntitySet="Motorista" />
+            <End Role="OrdemServico" EntitySet="OrdemServico" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Posto__OrdSerId__5535A963" Association="Self.FK__Posto__OrdSerId__5535A963">
+            <End Role="OrdemServico" EntitySet="OrdemServico" />
+            <End Role="Posto" EntitySet="Posto" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Veiculo__CombId__3D5E1FD2" Association="Self.FK__Veiculo__CombId__3D5E1FD2">
+            <End Role="TipoCombustivel" EntitySet="TipoCombustivel" />
+            <End Role="Veiculo" EntitySet="Veiculo" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FrotadeVeículoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Motorista">
+          <Key>
+            <PropertyRef Name="MotId" />
+          </Key>
+          <Property Name="MotId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Idade" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="VeId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Veiculo" Relationship="Self.FK__Motorista__VeId__403A8C7D" FromRole="Motorista" ToRole="Veiculo" />
+          <NavigationProperty Name="OrdemServicoes" Relationship="Self.FK__OrdemServ__MotId__5165187F" FromRole="Motorista" ToRole="OrdemServico" />
+        </EntityType>
+        <EntityType Name="OrdemServico">
+          <Key>
+            <PropertyRef Name="OrdSerId" />
+          </Key>
+          <Property Name="OrdSerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Data" Type="DateTime" Precision="0" />
+          <Property Name="QuantidadeCombustivel" Type="Double" />
+          <Property Name="MotId" Type="Int32" Nullable="false" />
+          <Property Name="CombId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Motorista" Relationship="Self.FK__OrdemServ__MotId__5165187F" FromRole="OrdemServico" ToRole="Motorista" />
+          <NavigationProperty Name="TipoCombustivel" Relationship="Self.FK__OrdemServ__CombI__52593CB8" FromRole="OrdemServico" ToRole="TipoCombustivel" />
+          <NavigationProperty Name="Postoes" Relationship="Self.FK__Posto__OrdSerId__5535A963" FromRole="OrdemServico" ToRole="Posto" />
+        </EntityType>
+        <EntityType Name="Posto">
+          <Key>
+            <PropertyRef Name="PoId" />
+          </Key>
+          <Property Name="PoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Localizacao" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="OrdSerId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="OrdemServico" Relationship="Self.FK__Posto__OrdSerId__5535A963" FromRole="Posto" ToRole="OrdemServico" />
+        </EntityType>
+        <EntityType Name="TipoCombustivel">
+          <Key>
+            <PropertyRef Name="CombId" />
+          </Key>
+          <Property Name="CombId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ValorLitro" Type="Double" />
+          <Property Name="Nome" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="OrdemServicoes" Relationship="Self.FK__OrdemServ__CombI__52593CB8" FromRole="TipoCombustivel" ToRole="OrdemServico" />
+          <NavigationProperty Name="Veiculoes" Relationship="Self.FK__Veiculo__CombId__3D5E1FD2" FromRole="TipoCombustivel" ToRole="Veiculo" />
+        </EntityType>
+        <EntityType Name="TipoCombustível">
+          <Key>
+            <PropertyRef Name="CombId" />
+          </Key>
+          <Property Name="CombId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ValorLitro" Type="Double" />
+          <Property Name="Nome" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Veiculo">
+          <Key>
+            <PropertyRef Name="VeId" />
+          </Key>
+          <Property Name="VeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="VeiPlaca" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VeiCor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="VeiMarca" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CombId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Motoristas" Relationship="Self.FK__Motorista__VeId__403A8C7D" FromRole="Veiculo" ToRole="Motorista" />
+          <NavigationProperty Name="TipoCombustivel" Relationship="Self.FK__Veiculo__CombId__3D5E1FD2" FromRole="Veiculo" ToRole="TipoCombustivel" />
+        </EntityType>
+        <Association Name="FK__Motorista__VeId__403A8C7D">
+          <End Role="Veiculo" Type="Self.Veiculo" Multiplicity="1" />
+          <End Role="Motorista" Type="Self.Motorista" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Veiculo">
+              <PropertyRef Name="VeId" />
+            </Principal>
+            <Dependent Role="Motorista">
+              <PropertyRef Name="VeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrdemServ__MotId__5165187F">
+          <End Role="Motorista" Type="Self.Motorista" Multiplicity="1" />
+          <End Role="OrdemServico" Type="Self.OrdemServico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Motorista">
+              <PropertyRef Name="MotId" />
+            </Principal>
+            <Dependent Role="OrdemServico">
+              <PropertyRef Name="MotId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__OrdemServ__CombI__52593CB8">
+          <End Role="TipoCombustivel" Type="Self.TipoCombustivel" Multiplicity="1" />
+          <End Role="OrdemServico" Type="Self.OrdemServico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoCombustivel">
+              <PropertyRef Name="CombId" />
+            </Principal>
+            <Dependent Role="OrdemServico">
+              <PropertyRef Name="CombId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Posto__OrdSerId__5535A963">
+          <End Role="OrdemServico" Type="Self.OrdemServico" Multiplicity="1" />
+          <End Role="Posto" Type="Self.Posto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrdemServico">
+              <PropertyRef Name="OrdSerId" />
+            </Principal>
+            <Dependent Role="Posto">
+              <PropertyRef Name="OrdSerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Veiculo__CombId__3D5E1FD2">
+          <End Role="TipoCombustivel" Type="Self.TipoCombustivel" Multiplicity="1" />
+          <End Role="Veiculo" Type="Self.Veiculo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoCombustivel">
+              <PropertyRef Name="CombId" />
+            </Principal>
+            <Dependent Role="Veiculo">
+              <PropertyRef Name="CombId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FrotadeVeículoEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Motoristas" EntityType="Self.Motorista" />
+          <EntitySet Name="OrdemServicoes" EntityType="Self.OrdemServico" />
+          <EntitySet Name="Postoes" EntityType="Self.Posto" />
+          <EntitySet Name="TipoCombustivels" EntityType="Self.TipoCombustivel" />
+          <EntitySet Name="TipoCombustível" EntityType="Self.TipoCombustível" />
+          <EntitySet Name="Veiculoes" EntityType="Self.Veiculo" />
+          <AssociationSet Name="FK__Motorista__VeId__403A8C7D" Association="Self.FK__Motorista__VeId__403A8C7D">
+            <End Role="Veiculo" EntitySet="Veiculoes" />
+            <End Role="Motorista" EntitySet="Motoristas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrdemServ__MotId__5165187F" Association="Self.FK__OrdemServ__MotId__5165187F">
+            <End Role="Motorista" EntitySet="Motoristas" />
+            <End Role="OrdemServico" EntitySet="OrdemServicoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__OrdemServ__CombI__52593CB8" Association="Self.FK__OrdemServ__CombI__52593CB8">
+            <End Role="TipoCombustivel" EntitySet="TipoCombustivels" />
+            <End Role="OrdemServico" EntitySet="OrdemServicoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Posto__OrdSerId__5535A963" Association="Self.FK__Posto__OrdSerId__5535A963">
+            <End Role="OrdemServico" EntitySet="OrdemServicoes" />
+            <End Role="Posto" EntitySet="Postoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Veiculo__CombId__3D5E1FD2" Association="Self.FK__Veiculo__CombId__3D5E1FD2">
+            <End Role="TipoCombustivel" EntitySet="TipoCombustivels" />
+            <End Role="Veiculo" EntitySet="Veiculoes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FrotadeVeículoModelStoreContainer" CdmEntityContainer="FrotadeVeículoEntities1">
+          <EntitySetMapping Name="Motoristas">
+            <EntityTypeMapping TypeName="FrotadeVeículoModel.Motorista">
+              <MappingFragment StoreEntitySet="Motorista">
+                <ScalarProperty Name="MotId" ColumnName="MotId" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Idade" ColumnName="Idade" />
+                <ScalarProperty Name="VeId" ColumnName="VeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrdemServicoes">
+            <EntityTypeMapping TypeName="FrotadeVeículoModel.OrdemServico">
+              <MappingFragment StoreEntitySet="OrdemServico">
+                <ScalarProperty Name="OrdSerId" ColumnName="OrdSerId" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="QuantidadeCombustivel" ColumnName="QuantidadeCombustivel" />
+                <ScalarProperty Name="MotId" ColumnName="MotId" />
+                <ScalarProperty Name="CombId" ColumnName="CombId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Postoes">
+            <EntityTypeMapping TypeName="FrotadeVeículoModel.Posto">
+              <MappingFragment StoreEntitySet="Posto">
+                <ScalarProperty Name="PoId" ColumnName="PoId" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Localizacao" ColumnName="Localizacao" />
+                <ScalarProperty Name="OrdSerId" ColumnName="OrdSerId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipoCombustivels">
+            <EntityTypeMapping TypeName="FrotadeVeículoModel.TipoCombustivel">
+              <MappingFragment StoreEntitySet="TipoCombustivel">
+                <ScalarProperty Name="CombId" ColumnName="CombId" />
+                <ScalarProperty Name="ValorLitro" ColumnName="ValorLitro" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipoCombustível">
+            <EntityTypeMapping TypeName="FrotadeVeículoModel.TipoCombustível">
+              <MappingFragment StoreEntitySet="TipoCombustível">
+                <ScalarProperty Name="CombId" ColumnName="CombId" />
+                <ScalarProperty Name="ValorLitro" ColumnName="ValorLitro" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Veiculoes">
+            <EntityTypeMapping TypeName="FrotadeVeículoModel.Veiculo">
+              <MappingFragment StoreEntitySet="Veiculo">
+                <ScalarProperty Name="VeId" ColumnName="VeId" />
+                <ScalarProperty Name="VeiPlaca" ColumnName="VeiPlaca" />
+                <ScalarProperty Name="VeiCor" ColumnName="VeiCor" />
+                <ScalarProperty Name="VeiMarca" ColumnName="VeiMarca" />
+                <ScalarProperty Name="CombId" ColumnName="CombId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
