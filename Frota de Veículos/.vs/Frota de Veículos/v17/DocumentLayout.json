@@ -1,0 +1,543 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\controllers\\motoristacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\controllers\\motoristacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\models\\frotadeve\u00EDculo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\models\\frotadeve\u00EDculo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\tipocombustivel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\tipocombustivel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\veiculoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\veiculoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\veiculoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\veiculoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\veiculoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\veiculoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\veiculoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\veiculoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\veiculoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\veiculoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\tipocombustivel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\tipocombustivel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\tipocombustivel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\tipocombustivel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\tipocombustivel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\tipocombustivel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\tipocombustivel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\tipocombustivel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\ordemservico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\ordemservico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\posto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\posto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\views\\ordemservico\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\ordemservico\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\views\\motorista\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\motorista\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\posto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\posto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\posto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\posto\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\posto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\posto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\posto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\posto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\ordemservico\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\ordemservico\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\ordemservico\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\ordemservico\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\ordemservico\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\ordemservico\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\motorista\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\motorista\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|c:\\users\\anton\\onedrive\\documentos\\github\\frota-de-veiculo\\frota de ve\u00EDculos\\frota de ve\u00EDculos\\views\\motorista\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\motorista\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\views\\motorista\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\motorista\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\views\\motorista\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\views\\motorista\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\controllers\\tipocombustivelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\controllers\\tipocombustivelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\controllers\\ordemservicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\controllers\\ordemservicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\frota de ve\u00EDculos\\controllers\\postocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7026EF1D-806D-4CBD-BC23-9C192413024C}|Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos.csproj|solutionrelative:frota de ve\u00EDculos\\controllers\\postocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Details.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Details.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Details.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:58:08.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Edit.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Edit.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T18:00:51.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VeiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\VeiculoController.cs",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Controllers\\VeiculoController.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\VeiculoController.cs",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Controllers\\VeiculoController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:47:33.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Details.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Details.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T18:00:31.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MotoristaController.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\MotoristaController.cs",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Controllers\\MotoristaController.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\MotoristaController.cs",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Controllers\\MotoristaController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:47:33.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrotadeVe\u00EDculo.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Models\\FrotadeVe\u00EDculo.edmx",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Models\\FrotadeVe\u00EDculo.edmx",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Models\\FrotadeVe\u00EDculo.edmx [Diagram1]",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Models\\FrotadeVe\u00EDculo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-04-04T17:47:33.336Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Edit.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Edit.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:58:27.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Index.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:58:42.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Create.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Create.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:59:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Delete.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Delete.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:59:35.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Veiculoes\\Index.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Veiculoes\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T18:01:07.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Delete.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Delete.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:57:33.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Create.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Create.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\TipoCombustivel\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:57:08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Index.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:56:20.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Posto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Index.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Posto\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:56:08.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Posto\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Edit.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Posto\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:55:44.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Details.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Posto\\Details.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Details.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Posto\\Details.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:55:24.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Posto\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Delete.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Posto\\Delete.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:54:49.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Motorista\\Index.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Index.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Motorista\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:47:33.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Create.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Create.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:47:33.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Posto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Posto\\Create.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Posto\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:54:40.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Edit.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:54:09.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Details.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Details.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Details.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Details.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:53:26.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\OrdemServico\\Delete.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\OrdemServico\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:51:55.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Details.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Motorista\\Details.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Details.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Motorista\\Details.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:50:34.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Motorista\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Edit.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Motorista\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:47:26.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Motorista\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Delete.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Motorista\\Delete.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:47:33.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Create.cshtml",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Views\\Motorista\\Create.cshtml",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Views\\Motorista\\Create.cshtml",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Views\\Motorista\\Create.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAACwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T17:47:33.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TipoCombustivelController.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\TipoCombustivelController.cs",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Controllers\\TipoCombustivelController.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\TipoCombustivelController.cs",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Controllers\\TipoCombustivelController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:47:33.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrdemServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\OrdemServicoController.cs",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Controllers\\OrdemServicoController.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\OrdemServicoController.cs",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Controllers\\OrdemServicoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:47:33.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PostoController.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\PostoController.cs",
+              "RelativeDocumentMoniker": "Frota de Ve\u00EDculos\\Controllers\\PostoController.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Documentos\\GitHub\\Frota-de-Veiculo\\Frota de Ve\u00EDculos\\Frota de Ve\u00EDculos\\Controllers\\PostoController.cs",
+              "RelativeToolTip": "Frota de Ve\u00EDculos\\Controllers\\PostoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:47:33.314Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -261,11 +261,11 @@
     <Content Include="Views\OrdemServico\Details.cshtml" />
     <Content Include="Views\OrdemServico\Edit.cshtml" />
     <Content Include="Views\OrdemServico\Index.cshtml" />
-    <Content Include="Views\TipoCombustivels\Create.cshtml" />
-    <Content Include="Views\TipoCombustivels\Delete.cshtml" />
-    <Content Include="Views\TipoCombustivels\Details.cshtml" />
-    <Content Include="Views\TipoCombustivels\Edit.cshtml" />
-    <Content Include="Views\TipoCombustivels\Index.cshtml" />
+    <Content Include="Views\TipoCombustivel\Create.cshtml" />
+    <Content Include="Views\TipoCombustivel\Delete.cshtml" />
+    <Content Include="Views\TipoCombustivel\Details.cshtml" />
+    <Content Include="Views\TipoCombustivel\Edit.cshtml" />
+    <Content Include="Views\TipoCombustivel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
