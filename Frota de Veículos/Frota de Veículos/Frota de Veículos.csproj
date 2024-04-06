@@ -241,11 +241,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Veiculoes\Create.cshtml" />
-    <Content Include="Views\Veiculoes\Delete.cshtml" />
-    <Content Include="Views\Veiculoes\Details.cshtml" />
-    <Content Include="Views\Veiculoes\Edit.cshtml" />
-    <Content Include="Views\Veiculoes\Index.cshtml" />
+    <Content Include="Views\Veiculo\Create.cshtml" />
+    <Content Include="Views\Veiculo\Delete.cshtml" />
+    <Content Include="Views\Veiculo\Details.cshtml" />
+    <Content Include="Views\Veiculo\Edit.cshtml" />
+    <Content Include="Views\Veiculo\Index.cshtml" />
     <Content Include="Views\Motorista\Create.cshtml" />
     <Content Include="Views\Motorista\Delete.cshtml" />
     <Content Include="Views\Motorista\Details.cshtml" />
